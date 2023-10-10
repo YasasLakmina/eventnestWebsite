@@ -1,0 +1,97 @@
+/* Cards */
+
+.cards_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+    margin-left: 240px;
+    margin-right: 125px;
+    margin-bottom: 100px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(225, 225, 225);
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+
+}
+
+.card:hover {
+    scale: 1.02;
+    transition: 0.7s;
+    box-shadow: 0 1px 10px black;
+}
+
+.arrow:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.arrow {
+    display: flex;
+    color: #000000;
+}
+
+.card h3{
+  
+    margin-left: 5px;
+}
+
+.card p{
+    font-size: 15px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.card a{
+    font-size: 15px;
+    margin-right: 180px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+
+.section_1 .text1{
+
+    color: rgb(130, 10, 10);
+}    
+
+.section_1 .text2{
+
+    color: rgb(58, 50, 123);
+   
+}
+/*search result css*/
+.center-text
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+
+   
+
+}
+
+.center-text > img{
+    align-items: center;
+    margin-top: -20px;
+    background:cover;
+    width: 100%;
+}
+
+.cards{
+    margin-top: 100px;
+    margin-right: 100px;
+}
