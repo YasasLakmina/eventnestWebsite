@@ -1,13 +1,14 @@
 /* Cards */
 
 .cards_container {
+    margin-top: 70px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 60px;
-    margin-left: 240px;
-    margin-right: 125px;
-    margin-bottom: 100px;
-    
+    gap: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+
 }
 
 .card {
@@ -15,21 +16,23 @@
     flex-direction: column;
     align-items: center;
     background: rgb(225, 225, 225);
-    height: 250px;
+    height: 400px;
     width: 100%;
     border-radius: 20px;
+    
 }
 
 .card img {
-    width: 300px;
+    width: 250px;
     height: 250px;
-
 }
 
 .card:hover {
+    
     scale: 1.02;
     transition: 0.7s;
     box-shadow: 0 1px 10px black;
+    
 }
 
 .arrow:hover {
@@ -71,27 +74,4 @@
 .section_1 .text2{
 
     color: rgb(58, 50, 123);
-   
-}
-/*search result css*/
-.center-text
-{
-    text-align: center;
-    margin-top: 10%;
-    font-size: 30px;
-
-   
-
-}
-
-.center-text > img{
-    align-items: center;
-    margin-top: -20px;
-    background:cover;
-    width: 100%;
-}
-
-.cards{
-    margin-top: 100px;
-    margin-right: 100px;
 }
